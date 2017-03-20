@@ -8,6 +8,7 @@ const char* world() { return __func__; }
 
 int main()
 {
+
     cout << hello() << ",  " << world() << endl;
     return 0;
 }
