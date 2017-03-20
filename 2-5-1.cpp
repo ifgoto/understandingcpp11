@@ -1,4 +1,6 @@
+#include <iostream>
 #include <cassert>
+
 using namespace std;
 
 
@@ -14,4 +16,5 @@ char* ArrayAlloc(int n) {
 }
 int main(){
     char* a = ArrayAlloc(0);
+    return 0;
 };
